@@ -92,7 +92,7 @@ class Child : public Parent {
 		//double b = double(a);//второй вариант
 
 		//upcast - Ќ≈я¬Ќќ≈ ѕ–≈ќЅ–ј«ќ¬јЌ»≈ 
-		Parent* pParent = &child;// Child* превратили Parent* <удалили все методы чайлда.
+		Parent* pParent = &child;// Child* превратили Parent* /дает возможность динамического полиморфизма приработе с кучей
 		//downcast
 		Child* pChild = (Child*)&parent;//Parent* превратили в Child* добавив в него все методы чайлда
 	
